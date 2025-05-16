@@ -3,6 +3,7 @@ Deploy an NFTs collection
 
 **resources**
 * [ERC-721](https://eips.ethereum.org/EIPS/eip-721)
+* [IPFS](https://ipfs.tech/)
 
 ## Foundry
 
