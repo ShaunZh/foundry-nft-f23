@@ -1,1 +1,2 @@
 @openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+lib/foundry-devops/=lib/foundry-devops/
