@@ -1,4 +1,11 @@
+# Overview
+Deploy an NFTs collection
+
+**resources**
+* [ERC-721](https://eips.ethereum.org/EIPS/eip-721)
+
 ## Foundry
+
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
