@@ -5,6 +5,9 @@ Deploy an NFTs collection
 * [ERC-721](https://eips.ethereum.org/EIPS/eip-721)
 * [IPFS](https://ipfs.tech/)
 
+## Problems
+
+
 ## Foundry
 
 
