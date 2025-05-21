@@ -3,7 +3,7 @@
 pragma solidity ^0.8.18;
 import {console} from "forge-std/console.sol";
 import {Script} from "forge-std/Script.sol";
-import {DevOpsTools} from "lib/foundry-devops/src/DevOpsTools.sol";
+import {DevOpsTools} from "foundry-devops/DevOpsTools.sol";
 import {BasicNft} from "../src/BasicNft.sol";
 import {Vm} from "forge-std/Vm.sol";
 
@@ -14,7 +14,7 @@ contract MintBasicNft is Script {
         //  Vm.DirEntry[] memory entries = vm.readDir("./broadcast", 3);
         // console.log("entries", entries);
         // address mostRecentlyDeployed = DevOpsTools.get_most_recent_deployment("BasicNft", block.chainid, "broadcast");
-        
+
         // NOTE: Set a environment variable BASIC_NFT_ADDRESS
         address contractAddress = vm.envAddress("BASIC_NFT_ADDRESS");        
         mintNftOnContract(contractAddress);
